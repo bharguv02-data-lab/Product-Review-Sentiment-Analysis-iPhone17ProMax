@@ -34,28 +34,30 @@ Most negative feedback focuses on:
 
 ## Project Structure
 
+```
 product-review-sentiment-analysis-iphone17promax/
 
-clean2.py  
-Extracts and cleans raw HTML review data from GSMArena.
+├── clean2.py
+│   Extracts and cleans raw HTML review data from GSMArena.
 
-clean.py  
-Filters and refines the extracted review text to remove UI elements and short noise lines.
+├── clean.py
+│   Filters and refines extracted review text to remove UI elements and noise.
 
-sentiment.py  
-Performs sentiment analysis using VADER and generates the sentiment distribution visualization.
+├── sentiment.py
+│   Performs sentiment analysis using VADER and generates sentiment distribution visualization.
 
-insights.py  
-Identifies common complaint categories (camera, battery, performance, price, etc.) using keyword analysis.
+├── insights.py
+│   Detects common complaint categories (camera, battery, performance, price) using keyword analysis.
 
-raw.txt  
-Raw HTML page containing GSMArena user reviews.
+├── raw.txt
+│   Raw HTML page containing GSMArena user reviews.
 
-comments.txt  
-Cleaned dataset containing only extracted review text.
+├── comments.txt
+│   Cleaned dataset containing extracted review text.
 
-sentiment_distribution.png  
-Visualization showing the distribution of positive, neutral, and negative reviews.
+├── sentiment_distribution.png
+│   Visualization showing distribution of positive, neutral, and negative reviews.
 
-keyword_counts.png  
-Visualization showing the most common issues mentioned in negative reviews.
+└── keyword_counts.png
+    Visualization showing most common complaint keywords.
+```
