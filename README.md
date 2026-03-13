@@ -54,8 +54,5 @@ Most negative feedback focuses on:
 
 ## Output Visualizations
 
-### Sentiment Distribution
-![Sentiment Distribution](sentiment_distribution.png)
-
 ### Negative Review Keyword Frequency
 ![Keyword Frequency](keyword_counts.png)
