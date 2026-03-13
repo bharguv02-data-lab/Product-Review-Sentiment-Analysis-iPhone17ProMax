@@ -31,33 +31,28 @@ Most negative feedback focuses on:
 
 - Sentiment distribution chart
 - Keyword frequency in negative reviews
-
 ## Project Structure
 
+`clean2.py`  
+Extracts and cleans raw HTML review data from GSMArena.
 
-product-review-sentiment-analysis-iphone17promax/
+`clean.py`  
+Filters and refines extracted review text to remove UI elements and noise.
 
-├── 'clean2.py'
-│   Extracts and cleans raw HTML review data from GSMArena.
+`sentiment.py`  
+Performs sentiment analysis using VADER and generates the sentiment distribution visualization.
 
-├── clean.py
-│   Filters and refines extracted review text to remove UI elements and noise.
+`insights.py`  
+Identifies common complaint categories (camera, battery, performance, price, etc.) using keyword analysis.
 
-├── sentiment.py
-│   Performs sentiment analysis using VADER and generates sentiment distribution visualization.
+`raw.txt`  
+Raw HTML page containing GSMArena user reviews.
 
-├── insights.py
-│   Detects common complaint categories (camera, battery, performance, price) using keyword analysis.
+`comments.txt`  
+Cleaned dataset containing only extracted review text.
 
-├── raw.txt
-│   Raw HTML page containing GSMArena user reviews.
+`sentiment_distribution.png`  
+Visualization showing the distribution of positive, neutral, and negative reviews.
 
-├── comments.txt
-│   Cleaned dataset containing extracted review text.
-
-├── sentiment_distribution.png
-│   Visualization showing distribution of positive, neutral, and negative reviews.
-
-└── keyword_counts.png
-    Visualization showing most common complaint keywords.
-
+`keyword_counts.png`  
+Visualization showing the most common complaint keywords.
