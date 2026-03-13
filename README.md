@@ -32,7 +32,7 @@ Most negative feedback focuses on:
 - Sentiment distribution chart
 - Keyword frequency in negative reviews
 
-- ## Project Structure
+## Project Structure
 
 product-review-sentiment-analysis-iphone17promax/
 
