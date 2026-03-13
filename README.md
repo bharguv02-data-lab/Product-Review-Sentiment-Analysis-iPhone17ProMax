@@ -34,10 +34,10 @@ Most negative feedback focuses on:
 
 ## Project Structure
 
-```
+
 product-review-sentiment-analysis-iphone17promax/
 
-├── clean2.py
+├── 'clean2.py'
 │   Extracts and cleans raw HTML review data from GSMArena.
 
 ├── clean.py
@@ -60,4 +60,4 @@ product-review-sentiment-analysis-iphone17promax/
 
 └── keyword_counts.png
     Visualization showing most common complaint keywords.
-```
+
