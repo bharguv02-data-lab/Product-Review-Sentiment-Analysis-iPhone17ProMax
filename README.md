@@ -32,9 +32,6 @@ Raw HTML page containing GSMArena user reviews.
 `comments.txt`  
 Cleaned dataset containing extracted review text.
 
-`sentiment_distribution.png`  
-Visualization showing the distribution of positive, neutral, and negative reviews.
-
 `keyword_counts.png`  
 Visualization showing the most common complaint keywords in negative reviews.
 
